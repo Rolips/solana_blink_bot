@@ -71,7 +71,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
 def main() -> None:
     """Run the bot."""
-    application = Application.builder().token("7254013696:AAG519IuaV1R1ijyFelAXVJWaSRipIV8esk").build()
+    application = Application.builder().token("enter Token").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("blink", blink)],
